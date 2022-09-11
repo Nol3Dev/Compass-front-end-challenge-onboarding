@@ -1,0 +1,193 @@
+main {
+    display: block;
+    height: 777px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 940px;
+    margin: 0 auto;
+    height: 777px;
+}
+
+.img1 img{
+    width: 100%;
+    margin: 50px auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    gap: 1em;
+}
+
+.active {
+    border: 2px solid #92E3A9;
+    background-color: #92E3A9;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    margin:  0 0 30px 0;
+}
+
+.inactive {
+    border: 2px solid #000000;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    margin:  0 0 30px 0;
+}
+
+#continue1 button {
+    margin: 0 auto;
+    width: 308px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #92E3A9;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 4px 10px #A1C3FC;
+
+}
+
+#continue1 button:hover {
+    cursor: pointer;
+}
+
+#skip {
+    margin: 30px 0 0;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color: #92E3A9;
+}
+
+.continue1, .continue2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Delivery*/
+
+#continue2 button {
+    margin: 0 auto;
+    width: 308px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #92E3A9;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 4px 10px #A1C3FC;
+
+}
+
+#continue2 button:hover {
+    cursor: pointer;
+}
+
+/*Community*/
+
+#continue2 button {
+    margin: 0 auto;
+    width: 308px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #92E3A9;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 4px 10px #A1C3FC;
+
+}
+
+#continue2 button:hover {
+    cursor: pointer;
+}
+
+#return {
+    margin: 30px 0 0;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color: #92E3A9;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 768px) {
+
+    body {
+        height: 900px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .img {
+        height: 40%;
+        margin: 40px 0 0 auto;
+    }
+
+    .img1 img {
+        width: 70%;
+        margin: 40px 50px;
+    }
+
+    .text {
+        margin: 5px auto;
+    }
+
+
+ }
+
+@media screen and (max-width: 320px) {
+    
+    .card {
+        width: 200px;
+    }
+
+    .img1 {
+        height: 20%;
+        margin: 20px 20px 0 auto;
+    }
+    
+    .img1 img {
+        width: 80%;
+        margin: 20px 30px;
+    }
+
+    .text {
+        height: 30%;
+        margin: 20px;
+    }
+
+    .continue1, .continue2 button {
+        width: 200px;
+    }
+
+    
+}
+
+@media screen and (max-width: 912px) {
+
+}
